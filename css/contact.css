@@ -1,3 +1,114 @@
-h1 {
+* {
+  box-sizing: border-box;
+  margin: 0px
+}
+
+body {
+  background-image: url(../images/contact.jpg);
+}
+
+nav {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+
+nav .image1 {
+  margin-left: 200px;
+}
+
+nav .image2 {
+  margin-right: 200px;
+}
+
+nav div {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  grid-gap: 50px;
+}
+nav div a {
+  border: solid #e2e2e2 3px;
+  border-radius: 6px;
+  color: #e2e2e2;
+  padding: 2px 6px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: fantasy;
+  margin: auto;
+  transition: 300ms;
+}
+
+nav div a:hover {
+  border: solid #ffffff 3px;
+  color: #ffffff;
+}
+
+main {
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  margin: 20px auto auto auto;
+}
+
+main h1, p {
   text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+div {
+  float: left;
+  margin-left: 150px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  width: 30%;
+}
+
+div p {
+  font-family: 'Coda Caption', sans-serif;
+  margin: 10px 0px;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input,textarea {
+  margin: 10px auto;
+  width: 100%;
+  padding: 12px;
+  transition: 300ms;
+  border: 3px solid rgb(9, 51, 75);
+  border-radius: 5px;
+  resize: none;
+}
+
+input:hover{
+  border: 3px solid rgb(2, 106, 167);
+  border-radius: 5px;
+}
+
+textarea:hover{
+  border: 3px solid rgb(2, 106, 167);
+  border-radius: 5px;
+}
+
+input[type=submit]{
+  background-color:rgb(2, 106, 167);
+  color: white;
+  transition: 250ms;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(48, 48, 48);
+}
+
+iframe {
+  float: right;
+  margin: 15px 200px 0 0;
 }

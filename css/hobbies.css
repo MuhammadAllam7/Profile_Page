@@ -1,8 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  background-color: rgb(233, 233, 233);
+  background-image: url(../images/hobbies.jpg);
+  background-size: cover;
   margin: 0px;
 }
 
@@ -14,11 +16,11 @@ nav {
 }
 
 nav .image1 {
-  margin-left: 200px
+  margin-left: 200px;
 }
 
 nav .image2 {
-  margin-right: 200px
+  margin-right: 200px;
 }
 
 nav div {
@@ -44,37 +46,32 @@ nav div a:hover {
   color: #ffffff;
 }
 
-.container {
-  width: 80%;
-  margin: 20px auto auto;
-  display: flex;
-  grid-gap: 20px;
-}
-
-aside {
-  width: 23%;
-  padding: 15px 15px 5px;
-  background-color: white;
-}
-
-aside h2 {
+main {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
   text-align: center;
 }
 
-.picture {
-  margin: 15px 0 20px 0;
-}
-
-pre {
-  font-size: 15px;
-}
-
 section {
-  width: 75%;
-  padding: 15px 15px 5px;
-  background-color: white;
+  display: flex;
+  grid-gap: 100px;
+  width: 65%;
+  margin: auto;
+
 }
 
-section h2 {
-  color: #0cce16;
+section div {
+  background-color: #00002e;
+  margin: 10px;
+  border: solid black 3px;
+  border-radius: 5px;
+  padding: 0px 5px 5px 5px;
+}
+
+div p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Zen Dots", cursive;
 }
